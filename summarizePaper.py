@@ -10,7 +10,8 @@ import requests
 from autogen import AssistantAgent, ConversableAgent, UserProxyAgent
 from autogen.agentchat.contrib.capabilities import transform_messages
 from autogen.agentchat.contrib.capabilities.text_compressors import LLMLingua
-from autogen.agentchat.contrib.capabilities.transforms import TextMessageCompressor
+from autogen.agentchat.contrib.capabilities.transforms import \
+    TextMessageCompressor
 
 
 def load_config():
